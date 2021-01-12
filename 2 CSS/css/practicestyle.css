@@ -1,0 +1,25 @@
+.floatleft {
+    float: left;
+    margin: 0 .5rem 0 0;
+}
+
+.floatright {
+    float: right;
+}
+article {
+    width: 30rem;
+    padding: 0 5px 0 5px;
+    margin: 0 auto;
+    background-color: rgb(213, 238, 144);
+    border: 3px solid red;
+}
+
+h1 {
+    text-align: center;
+}
+
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
